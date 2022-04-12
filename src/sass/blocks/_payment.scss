@@ -1,0 +1,25 @@
+.payment {
+    padding: 70px 0;
+    background-color: #f6f6f6;
+    &__wrapper {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, minmax(100px, auto));
+        grid-auto-rows: minmax(100px, auto);
+        column-gap: 20px;
+        row-gap: 50px;
+        justify-items: center;
+    }
+    &__item {
+        display: grid;
+        grid-template-columns: 130px 1fr;
+        column-gap: 30px;
+        &-subtitle {
+            font-weight: 900;
+        }
+        &-text {
+            margin-top: 10px;
+        }
+    }
+}

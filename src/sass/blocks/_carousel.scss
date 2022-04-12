@@ -1,0 +1,88 @@
+.carousel {
+    padding: 81px 0;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 330px 650px;
+        column-gap: 44px;
+        justify-items: end;
+    }
+    &__advantages {
+        margin-top: 70px;
+        &-text {
+            span {
+                font-weight: 900;
+            }
+        }
+    }
+    &-indicators {
+        position: absolute;
+        // right: 0;
+        bottom: 0;
+        left: 0;
+        transform: translateX(50%);
+        z-index: 15;
+        display: flex;
+        justify-content: center;
+        margin-right: 15%;
+        margin-left: 15%;
+        list-style: none;
+        z-index: 5;
+    }
+    &__slider {
+        position: relative;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        &-wrapper {
+            width: 100%;
+        }
+        &-counter {
+            display: flex;
+            width: 180px;
+            justify-content: end;
+            align-items: center;
+            #current {
+                font-size: 48px;
+                font-weight: 700;
+                color: #000;
+            }
+            #total {
+                font-size: 24px;
+            }
+        }
+        &-prev {
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        &-next {
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    }
+    &__slide {
+        width: 100%;
+        height: 400px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .dot {
+        box-sizing: content-box;
+        flex: 0 1 auto;
+        width: 30px;
+        height: 6px;
+        margin-right: 3px;
+        margin-left: 3px;
+        cursor: pointer;
+        background-color: #fff;
+        background-clip: padding-box;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        opacity: .5;
+        transition: opacity .6s ease;
+    }
+}
+

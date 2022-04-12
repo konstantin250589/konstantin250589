@@ -1,0 +1,40 @@
+.catalog {
+    padding: 50px 0 50px 0;
+    &__wrapper {
+        margin: 0 auto;
+        margin-top: 50px;
+        display: grid;
+        grid-template: repeat(3, minmax(100px, auto)) / repeat(auto-fill, minmax(200px, 200px));
+        grid-auto-rows: minmax(100px, auto);
+        gap: 60px;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    &__item {
+        position: relative;
+        min-height: 250px;
+        transition: 0.5s all;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover {
+            box-shadow: 2px 2px 30px #000;
+            transform: scale(1.05);
+        }
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+    &__header {
+        position: absolute;
+        bottom: 35px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: 900;
+		font-size: 15px;
+		text-transform: uppercase;
+		color: #000;
+        text-align: center;
+    }
+}

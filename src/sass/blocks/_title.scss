@@ -1,0 +1,22 @@
+.title {
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    color: #0D0D0D;
+    text-transform: uppercase;
+    span {
+        color: red;
+        font-weight: 900;
+    }
+    &_consul {
+        font-size: 36px;
+        line-height: 54px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: left;
+    }
+    &_company {
+        font-size: 24px;
+        text-align: left;
+    }
+}

@@ -1,0 +1,21 @@
+.overlay {
+    z-index: 10;
+    .form {
+        &__modal {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 382px;
+            background: $main-color;
+            padding: 35px 28px 40px 28px;
+            border-radius: 5px;
+            &-subtitle {
+                font-weight: 900;
+				font-size: 25px;
+				color: #0D0D0D;
+				text-align: center;
+            }
+        }
+    }
+}

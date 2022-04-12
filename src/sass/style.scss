@@ -1,0 +1,36 @@
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+@import 'base/variables';
+@import 'base/animation';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/button';
+@import 'blocks/forms';
+@import 'blocks/title';
+@import 'blocks/delivery';
+@import 'blocks/consultation';
+@import 'blocks/carousel';
+@import 'blocks/modal';
+@import 'blocks/pageup';
+@import 'blocks/footer';
+@import 'blocks/catalog';
+@import 'blocks/payment';
+@import 'blocks/overlay';
+@import 'blocks/animation';
+@import 'blocks/media';
+
+
+.container {
+    position: relative;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.show {
+    display: block;
+}
+.hide {
+    display: none;
+}

@@ -1,0 +1,20 @@
+@keyframes buttonbeat {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes morewidth {
+    from {
+        box-shadow: 0 0 3px #000;
+    }
+    to {
+        box-shadow: 0 0 30px #000;
+    }
+}

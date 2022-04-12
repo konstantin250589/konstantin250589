@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	&__official {
+		font-weight: 900;
+        font-size: 42px;
+        text-transform: uppercase;
+        color: #000;
+	}
+    &__contacts {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+    }
+    &__phone {
+		display: block;
+		color: #000;
+		font-size: 18px;
+		font-weight: 900;
+		margin-bottom: 5px;
+		&:hover {
+			color: #000;
+			text-decoration: none;
+		}
+	}
+}

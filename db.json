@@ -1,0 +1,227 @@
+{
+  "menu": [
+    {
+      "img": "img/engine.jpg",
+      "alt": "engine",
+      "title": "Двигатель"
+    },
+    {
+      "img": "img/transmission.png",
+      "alt": "transmission",
+      "title": "Трансмиссия"
+    },
+    {
+      "img": "img/car.jpg",
+      "alt": "car",
+      "title": "Кузов"
+    },
+    {
+      "img": "img/suspension.jpg",
+      "alt": "suspension",
+      "title": "Подвеска"
+    },
+    {
+      "img": "img/steering.jpg",
+      "alt": "steering",
+      "title": "Рулевое управление"
+    },
+    {
+      "img": "img/generator.jpg",
+      "alt": "generator",
+      "title": "Электрооборудование"
+    },
+    {
+      "img": "img/headlight.png",
+      "alt": "light",
+      "title": "Оптика"
+    },
+    {
+      "img": "img/signal.png",
+      "alt": "signal",
+      "title": "Стоп-сигнал"
+    },
+    {
+      "img": "img/radiator.jpg",
+      "alt": "radiator",
+      "title": "Система охлаждения"
+    },
+    {
+      "img": "img/wheels.jpg",
+      "alt": "wheels",
+      "title": "шины и диски"
+    },
+    {
+      "img": "img/glass.jpg",
+      "alt": "glass",
+      "title": "стекла"
+    }
+  ],
+  "requests": [
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-43",
+      "id": 1
+    },
+    {
+      "name": "konstantin",
+      "phone": "312321",
+      "id": 2
+    },
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-43",
+      "email": "duhinkonstantin@mail.ru",
+      "id": 3
+    },
+    {
+      "name": "expert",
+      "phone": "+7 (312) 312-31-43",
+      "email": "dylgina-darya@mail.ru",
+      "id": 4
+    },
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-43",
+      "email": "dylgina-darya@mail.ru",
+      "id": 5
+    },
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-43",
+      "email": "dylgina-darya@mail.ru",
+      "id": 6
+    },
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-43",
+      "email": "dylgina-darya@mail.ru",
+      "id": 7
+    },
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-43",
+      "email": "dylgina-darya@mail.ru",
+      "id": 8
+    },
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-43",
+      "email": "dylgina-darya@mail.ru",
+      "id": 9
+    },
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-43",
+      "email": "dylgina-darya@mail.ru",
+      "id": 10
+    },
+    {
+      "name": "fsafdsf",
+      "phone": "+7 (312) 312-31-43",
+      "email": "dylgina-darya@mail.ru",
+      "id": 11
+    },
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-43",
+      "email": "dylgina-darya@mail.ru",
+      "id": 12
+    },
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-43",
+      "email": "duhinkonstantin@mail.ru",
+      "id": 13
+    },
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-43",
+      "email": "dasd@432",
+      "id": 14
+    },
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-43",
+      "email": "dasd@432",
+      "id": 15
+    },
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-43",
+      "email": "dasd@432",
+      "id": 16
+    },
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-43",
+      "email": "dasd@432",
+      "id": 17
+    },
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-43",
+      "email": "duhinkonstantin@mail.ru",
+      "id": 18
+    },
+    {
+      "name": "",
+      "phone": "",
+      "email": "",
+      "id": 19
+    },
+    {
+      "name": "fsafdsf",
+      "phone": "+7 (312) 312-31-43",
+      "email": "dasd@432",
+      "id": 20
+    },
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-43",
+      "email": "dasd@432",
+      "id": 21
+    },
+    {
+      "name": "fsafdsf",
+      "phone": "+7 (312) 312-31-43",
+      "email": "duhinkonstantin@mail.ru",
+      "id": 22
+    },
+    {
+      "name": "fsafdsf",
+      "phone": "+7 (312) 312-31-43",
+      "email": "duhinkonstantin@mail.ru",
+      "id": 23
+    },
+    {
+      "name": "fsafdsf",
+      "phone": "+7 (143) 243-24-32",
+      "email": "dylgina-darya@mail.ru",
+      "id": 24
+    },
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-23",
+      "email": "duhinkonstantin@mail.ru",
+      "id": 25
+    },
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-23",
+      "email": "dasd@432",
+      "id": 26
+    },
+    {
+      "name": "konstantin",
+      "phone": "+7 (312) 312-31-23",
+      "email": "dasd@432",
+      "id": 27
+    },
+    {
+      "name": "alex",
+      "phone": "+7 (143) 243-24-32",
+      "email": "dylgina-darya@mail.ru",
+      "id": 28
+    }
+  ]
+}
